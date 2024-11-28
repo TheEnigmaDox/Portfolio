@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.headerdiv{
+    width: 100vw;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center; 
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-left: 50px;
+    margin-right:  50px;
+}
+
+.logo{
+    width: 500px;
+    height: 500px;
+}
