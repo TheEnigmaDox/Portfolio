@@ -6,101 +6,257 @@
     <link rel="stylesheet" href="css/stylesheet.css">
     <title>Portfolio</title>
 </head>
-<body>
-    <div id="logowrap">
-        <img src="img/Logo.jpg" class="logo">
-    </div>
-
+<body class="index">
+    <header>
+        <div id="logowrap">
+            <img src="img/Logo.jpg" class="logo">
+        </div>
         <h1>James Nairn - Game Developer Portfolio</h1>
 
-    <div class="linkbar">
-        <table style="width:100%">
+    <nav>
+        <table>
             <tr>
                 <td><a href="https://theenigmadox.itch.io/bomber-snakes" target="_blank">Bomber Snakes</a></td>
                 <td><a href="https://theenigmadox.itch.io/surgebreaker" target="_blank">SurgeBreaker</a></td>
                 <td><a href="https://theenigmadox.itch.io/pong-clone" target="_blank">Pong Clone</a></td>
-                <td><a href="https://theenigmadox.itch.io/controller-button-checker" target="_blank">Button Checker</a></td>
-                <td><a href="https://theenigmadox.itch.io/balloon-pop" target="_blank">Ballon Pop</a></td>
-                <td><a href="https://theenigmadox.itch.io/a-simple-platformer" target="_blank">A Simple Platformer</a></td>
+                <td><a href="https://theenigmadox.itch.io/squidvasion">Squid-Vasion</a></td>
+                <td><a href="https://theenigmadox.itch.io/dungeon-escape">Dungeon Escape</a></td>
             </tr>
-        </table>
-    </div>
+        </table>   
+    </nav>
+    </header>
+    <div id="wrapper">
         
-    <h2>About Me</h2>
-    <p>I am a student game developer. I started developing games during covid as my love of games took me to the next level. 
-        I have completed my NC and HNC Game Development courses and I am currently working towards my HND in game development at Edinburgh College. 
-    </p>
-    <p>
-        This career step happened as I have been playing games for over 25 years and always wanted to create my own game. I have experience in different aspects of game development, 
-        although programming is where I have the most experience. Other areas that I have experience in are:
-        <table class="infotable">
-            <tr>
-                <td>- Level Design.</td>
-            </tr>    
-            <tr>
-                <td>- 2D Art and Design using programs like Aseprite and Photoshop. (Both bitmap images and Vector Images).</td>
-            </tr>
-            <tr>
-                <td>- 3D Modelling using Blender and 3DS Max.</td>
-            </tr>
-            <tr>
-                <td>- Video editing.</td>
-            </tr>
-            <tr>
-                <td>- Working within a team.</td>
-            </tr>
-            <tr>
-                <td>- Planning and Hosting events.</td>
-            </tr>
-        </table>
+    <main>
+        <h1>About Me</h1>
+        <p>I am a student game developer. I started developing games in 2020 as my love of games took me to the next level. 
+            I have completed my NC and HNC Game Development courses and I am currently working towards my HND in game development at Edinburgh College. 
+        </p>
+        <p>
+            This career step happened as I have been playing games for over 25 years and always wanted to create my own game. I have experience in different aspects of game development, 
+            although programming is where I have the most experience. Other areas that I have experience in are:
+            <table class="table">
+                <tr>
+                    <td>- Level Design.</td>
+                </tr>    
+                <tr>
+                    <td>- 2D Art and Design using programs like Aseprite and Photoshop. (Both bitmap images and Vector Images).</td>
+                </tr>
+                <tr>
+                    <td>- 3D Modelling using Blender and 3DS Max.</td>
+                </tr>
+                <tr>
+                    <td>- Video editing.</td>
+                </tr>
+                <tr>
+                    <td>- Working within a team.</td>
+                </tr>
+                <tr>
+                    <td>- Planning and Hosting events.</td>
+                </tr>
+            </table>
+            
+        </p>
         
-    </p>
+        <p>
+            I have experience working in a few different programs. Most of my experiences lies within Visual Studio using Monogame. I am also very proficient using Unity.
+            I also have experience working with Unreal Engine and Blueprint coding.
+        </p>
     
-    <p>
-        I have experience working in a few different programs. Most of my experiences lies within Visual Studio using Monogame. I am also very proficient using Unity.
-        I also have experience working with Unreal Engine and Blueprint coding.
-    </p>
+        <p>I love to create games that people can get lost in.</p>
+    
+        <p>Some links to my games can be found below. There are a few more games on my itch page found at 
+            <a href="https://theenigmadox.itch.io/" target="_blank">Itch Page</a>
+        </p>
+        
+        <div>
+            <h1>Games I Have Created</h1>
+        </div>
+        <div>
+            <h2>Bomber-Snakes</h2>
+        <div class="game-image">
+            <picture>
+                <a href="https://theenigmadox.itch.io/bomber-snakes" target="_blank">
+                    <img src="GIF/BomberSnakes.gif" alt="bomber-snakes" style="width:250px; height:250px" ></a>
+            </picture>
+        
+            <p>
+                In this game I took inspiration from the classic games Snake and BomberMan<br> 
+                <br>
+                Each player controls a snake that can eat food to grow and pick up bombs<br> to 
+                blow up  the breakable walls or the other snake.
+                <br>
+                <br>
+                The last player left in the game is the winner.
+            </p>
+            
+            <P>In this game I programmed:</P>
+            <table class="table">
+                <tr>
+                    <td>- Step Movement</td>
+                </tr>    
+                <tr>
+                    <td>- Item Pickup</td>
+                </tr>    
+                <tr>
+                    <td>- Timed Spawning</td>
+                </tr>    
+                <tr>
+                    <td>- Counters</td>
+                </tr>    
+                <tr>
+                    <td>- Explosion Collisions</td>
+                </tr>    
+                <tr>
+                    <td>- Game States</td>
+                </tr>    
+            </table>
+        </div>
 
-    <p>I love to create games that people can get lost in.</p>
+        <div>
+            <h2>SurgeBreaker</h2>
+        <div class="game-image">
+            <picture>
+                <a href="https://theenigmadox.itch.io/surgebreaker" target="_blank">
+                    <img src="GIF/SurgeBreaker.gif" alt="SurgeBreaker" style="width:250px; height:250px" ></a>
+            </picture>
+        
+            <p>
+                In this game I took inspiration from the classic game Breakout<br> 
+                <br>
+                The player bounces the ball to break bricks and keep the charge of the paddle up to continue play.
+                <br>
+            </p>
+            
+            <P>In this game I programmed:</P>
+            <table class="table">
+                <tr>
+                    <td>- Horizontal Movement</td>
+                </tr>    
+                <tr>
+                    <td>- Bar Style Timer</td>
+                </tr>    
+                <tr>
+                    <td>- Different Style "Bricks"</td>
+                </tr>    
+                <tr>
+                    <td>- Game States</td>
+                </tr>    
+            </table>
+        </div>
 
-    <div>
-        <h1>Games I have created</h1>
-    </div>
+        <div>
+            <h2>Pong Clone</h2>
+        <div class="game-image">
+            <picture>
+                <a href="https://theenigmadox.itch.io/pong-clone" target="_blank">
+                    <img src="GIF/Pong.gif" alt="Pong Clone" style="width:250px; height:250px" ></a>
+            </picture>
+        
+            <p>
+                I created this game in Unity to reinforce the basics of the C# programming language.<br> 
+            </p>
+            
+            <P>In this game I programmed:</P>
+            <table class="table">
+                <tr>
+                    <td>- Vertical Movement</td>
+                </tr>    
+                <tr>
+                    <td>- Score Counter</td>
+                </tr>    
+                <tr>
+                    <td>- "AI" Style bat</td>
+                </tr>    
+            </table>
+        </div>
 
-    <div>
-        <table class="table">
-            <tr>
-                <th>Bomber Snakes</th>
-            </tr>
-            <tr>
-                <td><a href="https://theenigmadox.itch.io/bomber-snakes" target="_blank"><img src="img/BomberSnakeCover.png" alt="Bomber Snakes" style="width:250px;height:250px;"></a></td>
-                <td><p class="p">This game is a mixup between the classic Snake game and Bomberman game.
-                     Two players take control of snakes and face of in a bomber man style deathmatch</p></td>
-            </tr>
-            <tr>
-                <th>SurgeBreaker</th>
-            </tr>
-            <tr>
-                <td><a href="https://theenigmadox.itch.io/squidvasion" target="_blank"><img src="img/SquidVasionCover.png" alt="Squid Vasion" style="width:250px;height:250px;"></a></td>
-            </tr>
-            <tr>
-                <th>Pong Clone</th>
-            </tr>
-                <td><a href="https://theenigmadox.itch.io/pong=clone" target="_blank"><img src="img/PongCloneCover.png" alt="PongClone" style="width:250px;height:250px;"></a></td>
-            <tr>
-                <th>Button Checker</th>
-            </tr>
-            <tr>
-                <td><a href="https://theenigmadox.itch.io/controller-button-checker" target="_blank"><img src="img/ButtonCheckerCover.png" alt="PongClone" style="width:250px;height:250px;"></a></td>
-            </tr>
-            <tr>
+        <div>
+            <h2>Squid - Vasion</h2>
+            <div class="game-image">
+                <picture>
+                    <a href="https://theenigmadox.itch.io/squidvasion" target="_blank">
+                        <img src="GIF/SquidVasion.gif" alt="SquidVasion" style="width:250px; height:250px" ></a>
+                </picture>
+            
+                <p>
+                    In this side-scrolling shooter, I took inspiration from the retro game Galaga.<br> 
+                    <br>
+                    Enemies spawn from the right hand side of the screen and move towards the player.<br>
+                    <br>
+                    The player has to shoot the enemies to stop
+                    them getting to the left hand side of the screen.
+                </p>
+                
+                <P>In this game I programmed:</P>
+                <table class="table">
+                    <tr>
+                        <td>- Movement</td>
+                    </tr>    
+                    <tr>
+                        <td>- Shooting</td>
+                    </tr>    
+                    <tr>
+                        <td>- Collision</td>
+                    </tr>    
+                    <tr>
+                        <td>- Timed Spawning</td>
+                    </tr>    
+                    <tr>
+                        <td>- Life Counter</td>
+                    </tr>    
+                    <tr>
+                        <td>- Score Counter</td>
+                    </tr>    
+                    <tr>
+                        <td>- Game States</td>
+                    </tr>    
+                </table>
+        </div>       
 
-            </tr>
-        </table>
-    </div>
-
-    <div class="footer">
-        <p>Developed by James Nairn 2024</p>
+        <h2>Dungeon Escape</h2>
+            <div class="game-image">
+                <picture>
+                    <a href="https://theenigmadox.itch.io/dungeon-escape" target="_blank">
+                        <img src="GIF/DungeonEscape.gif" alt="Dungeon Escape" style="width:250px; height:250px" ></a>
+                </picture>
+            
+                <p>
+                    In this game the player tries to escape a dungeon while avoiding the goblin capters.<br> 
+                    <br>
+                    Goblins wander around the dungeon making sure that everything is normal.<br>
+                    <br>
+                    The player has to avoid being in line of sight of Goblins to successfully reach the end of the dungeon.
+                </p>
+                
+                <P>In this game I programmed:</P>
+                <table class="table">
+                    <tr>
+                        <td>- Tile Based Movement</td>
+                    </tr>    
+                    <tr>
+                        <td>- Line of Sight</td>
+                    </tr>    
+                    <tr>
+                        <td>- Collision</td>
+                    </tr>    
+                    <tr>
+                        <td>- Randomisation of movement.</td>
+                    </tr>    
+                    <tr>
+                        <td>- Life Counter</td>
+                    </tr>    
+                    <tr>
+                        <td>- Game States</td>
+                    </tr>    
+                </table>
+        </div>       
+    </main>    
+    
+        <div class="footer">
+            <p>Background image - CoolVector <br>
+            <br>Developed by James Nairn 2024</p>
+        </div>
     </div>
 </body>
 </html>
