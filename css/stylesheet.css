@@ -80,6 +80,10 @@ p {
     text-decoration: none;
 }
 
+.container{
+    text-align: center;
+}
+
 .footer{
     background-color: black;
     color: white;
